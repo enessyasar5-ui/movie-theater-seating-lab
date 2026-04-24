@@ -1,7 +1,7 @@
-
-void main(String[] args) {
-MovieTheater mt=new MovieTheater();
-mt.maininitializeSeats();
-mt.printSeats();
-
+public class Main {
+    public static void main(String[] args) {
+        MovieTheater mt = new MovieTheater();
+        MovieTheater.initializeSeats();
+        mt.printSeats();
+    }
 }
